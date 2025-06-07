@@ -199,7 +199,7 @@ img {
   border: 1px solid #e6e6e6;
   width: 400px;
   height: 300px;
-  object-fit: cover; /* 画像が比率を保ったまま枠に収まるように */
+  object-fit: contain;
 }
 
 .works-name {
