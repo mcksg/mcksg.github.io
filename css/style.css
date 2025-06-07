@@ -197,6 +197,9 @@ img {
 
 .works-img img {
   border: 1px solid #e6e6e6;
+  width: 400px;
+  height: 300px;
+  object-fit: cover; /* 画像が比率を保ったまま枠に収まるように */
 }
 
 .works-name {
@@ -210,11 +213,11 @@ img {
   margin-top: 5px;
 }
 
-.works-img img {
+/* .works-img img {
   width: 400px;
   height: 300px;
   object-fit: cover; /* 画像が比率を保ったまま枠に収まるように */
-}
+} */
 
 /*--------------------------------
  Skill
